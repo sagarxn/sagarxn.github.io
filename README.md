@@ -2,7 +2,6 @@
 
 [![GitHub Pages Deployment](https://img.shields.io/github/actions/workflow/status/sagar-bei031/sagar-bei031.github.io/deploy.yaml?label=Deployment&logo=github&style=flat-square)](https://github.com/sagar-bei031/sagar-bei031.github.io/actions/workflows/deploy.yaml)
 [![Website](https://img.shields.io/website-up-down-green-red/https/sagarchaudhary.info.np.svg?label=Website&logo=google-chrome&style=flat-square)](https://sagarchaudhary.info.np)
-[![CNAME Configured](https://img.shields.io/badge/CNAME-sagarchaudhary.info.np-brightgreen?logo=link&style=flat-square)](https://sagarchaudhary.info.np)
 
 
 ## About
