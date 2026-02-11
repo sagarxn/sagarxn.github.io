@@ -1,6 +1,6 @@
 # Portfolio
 
-[![GitHub Pages Deployment](https://img.shields.io/github/actions/workflow/status/sagarxn/sagarxn.github.io/deploy.yaml?label=Deployment&logo=github&style=flat-square)](https://github.com/sagarxn/sagarxn.github.io/actions/workflows/deploy.yaml)
+[![GitHub Pages Deployment](https://img.shields.io/github/actions/workflow/status/sagarxn/sagarxn.github.io/pages.yml?label=Deployment&logo=github&style=flat-square)](https://github.com/sagarxn/sagarxn.github.io/actions/workflows/pages.yml)
 [![Website](https://img.shields.io/website-up-down-green-red/https/sagarchaudhary.info.np.svg?label=Website&logo=google-chrome&style=flat-square)](https://sagarchaudhary.info.np)
 
 
