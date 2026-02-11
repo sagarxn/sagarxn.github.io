@@ -8,32 +8,44 @@
 This is the source code for my personal portfolio website hosted on GitHub Pages.
 
 ## Dependencies
+This project requires [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/).
 
-### 1. HEXO
-Install `HEXO` and its dependencies from the [official webpage](https://hexo.io/docs/).
-
-### 2. HEXO Theme Cactus
-Check the [HEXO Theme Cactus](https://themes.gohugo.io/themes/hugo-profile/).
-
-## Start
-
-### 1. Clone the repository recursively.
+### 1. Hexo
+Hexo is used as the static site generator. You can install the Hexo CLI globally (recommended):
 ```sh
-git clone git@github.com:sagarxn/sagarxn.github.io.git --recursive
-cd sagarxn.github.io.git
-# cd themes/cactus
-# git checkout 7a6074d
+npm install -g hexo-cli
 ```
 
-### 2. Generate static files.
+### 2. Theme Dependencies
+This project uses the [Cactus theme](https://github.com/probberechts/hexo-theme-cactus), which is included as a git submodule.
+
+## Getting Started
+
+### 1. Clone the repository
+Clone the repository recursively to include the theme submodule:
+```sh
+git clone --recursive https://github.com/sagarxn/sagarxn.github.io.git
+cd sagarxn.github.io
+```
+
+### 2. Install dependencies
+Install the required npm packages:
+```sh
+npm install
+```
+
+### 3. Generate static files
+Generate the `public` folder:
 ```sh
 hexo generate
 ```
 
-### 2. Deploy on a local server.
+### 4. Run locally
+Start a local server to preview your changes:
 ```sh
 hexo server -p 8000
 ```
+The site will be available at `http://localhost:8000`.
 
 ## Deployment
 This portfolio is automatically deployed to GitHub Pages using a GitHub Actions workflow. The custom domain `sagarchaudhary.info.np` is configured via a `CNAME` file.

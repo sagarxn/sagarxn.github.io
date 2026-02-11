@@ -4,9 +4,9 @@
 
 # Site
 title: Sagar Chaudhary
-subtitle: ''
-description: ''
-keywords:
+subtitle: 'Electronics, Communication, and Information Engineering Student'
+description: 'I am Sagar Chaudhary, a student of Electronics, Communication, and Information Engineering at [Pulchowk Campus](https://pcampus.edu.np). Alongside my studies, I spend my time exploring PCB design, writing embedded programs for different platforms, and building robots.'
+keywords: electronics, communication, information engineering, pcb design, embedded systems, robotics, sagar chaudhary
 author: Sagar Chaudhary
 language: en
 timezone: Asia/Kathmandu
@@ -114,6 +114,10 @@ theme_config:
   copyright:
     start_year: 2026
     end_year: 
+  
+  google_analytics:
+    enabled: true
+    id: G-489079348
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -121,3 +125,14 @@ deploy:
   type: git
   repo: https://github.com/sagarxn/sagarxn.github.io
   branch: gh-pages
+
+# Sitemap Configuration
+sitemap:
+  path: sitemap.xml
+
+# Robots.txt Configuration
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://sagarxn.github.io/sitemap.xml
