@@ -4,9 +4,9 @@
 
 # Site
 title: Sagar Chaudhary
-subtitle: 'Electronics | Embedded Systems | Robotics'
-description: 'I am Sagar Chaudhary, a student of Electronics, Communication, and Information Engineering at [Pulchowk Campus](https://pcampus.edu.np). Alongside my studies, I spend my time exploring PCB design, writing embedded programs for different platforms, and building robots.'
-keywords: electronics, communication, information engineering, pcb design, embedded systems, robotics, sagar chaudhary
+subtitle: 'Embedded Systems | Robotics'
+description: 'Electronics and Communication undergraduate skilled in PCB design, embedded programming, and robotics development.'
+keywords: sagar chaudhary, electronics, communication, information, pcb design, embedded programming, robotics
 author: Sagar Chaudhary
 language: en
 timezone: Asia/Kathmandu
@@ -110,6 +110,8 @@ theme_config:
   social_links:
     - icon: github
       link: http://github.com/sagarxn
+    - icon: linkedin
+      link: https://www.linkedin.com/in/sagar-chaudhary-904a03326
 
   logo:
     enabled: false
