@@ -16,15 +16,15 @@ Hexo is used as the static site generator. You can install the Hexo CLI globally
 npm install -g hexo-cli
 ```
 
-### 2. Theme Dependencies
-This project uses the [Cactus theme](https://github.com/probberechts/hexo-theme-cactus), which is included as a git submodule.
+### 2. Theme
+This project uses a modified version of the [Cactus theme](https://github.com/probberechts/hexo-theme-cactus). The theme source is included directly in this repository.
 
 ## Getting Started
 
 ### 1. Clone the repository
 Clone the repository recursively to include the theme submodule:
 ```sh
-git clone --recursive https://github.com/sagarxn/sagarxn.github.io.git
+git clone https://github.com/sagarxn/sagarxn.github.io.git
 cd sagarxn.github.io
 ```
 
@@ -52,3 +52,12 @@ This portfolio is automatically deployed to GitHub Pages using a GitHub Actions 
 
 ## Live Website
 Visit the live website here: [https://sagarchaudhary.info.np](https://sagarchaudhary.info.np)
+
+## License
+
+This project is released under a dual-license structure.
+
+- The **source code** of this website, including the theme and any customizations, is licensed under the [MIT License](LICENSE).
+- The **content**, including all text and images created by Sagar Chaudhary, is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+For more details, please see the [LICENSE](LICENSE) file.
