@@ -4,9 +4,7 @@ layout: page
 date: 2026-03-15 23:18:00
 ---
 
-I am Sagar Chaudhary, an undergraduate in Electronics, Communication, and Information Engineering skilled in PCB design, embedded programming, and robotics development.
-
-Over the past years, I have worked on various hands-on projects that have shaped my technical skills — from designing circuit boards to programming microcontrollers and building autonomous robotic systems. This practical experience has given me a solid understanding of both hardware and software aspects of electronics engineering.
+I am Sagar Chaudhary, an undergraduate in Electronics, Communication, and Information Engineering skilled in PCB design, embedded programming, and robotics development. Over the past years, I have worked on various hands-on projects that have shaped my technical skills — from designing circuit boards to programming microcontrollers and building autonomous robotic systems. This practical experience has given me a solid understanding of both hardware and software aspects of electronics engineering.
 
 
 ## Skills
