@@ -16,7 +16,7 @@
       <% } %>
       
       <li class="post-item">
-        <span class="meta"><%= moment(project.date).format('MMM') %></span>
+        <span class="meta"><%= moment(project.date).format('YYYY-MM') %></span>
         <div>
           <span><a href="<%= project.url %>"><%= project.name %></a></span>
           <% if (project.desc) { %>

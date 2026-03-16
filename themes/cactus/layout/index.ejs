@@ -68,10 +68,10 @@
 <% if (site.data.projects) { %>
 <section id="projects">
   <span class="h1"><a href="<%- url_for(theme.projects_url) %>"><%= __('index.projects') %></a></span>
-  <ul class="project-list">
+  <ul class="post-list">
     <% site.data.projects.slice(0, theme.projects_overview.limit || 5).forEach(function(project){ %>
-      <li class="project-item">
-        <span class="meta"><%= moment(project.date).format('MMM, YYYY') %></span>
+      <li class="post-item">
+        <span class="meta"><%= moment(project.date).format('YYYY-MM') %></span>
         <span><a href="<%= project.url %>"><%= project.name %></a></span>
       </li>
     <% }); %>
