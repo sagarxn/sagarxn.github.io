@@ -116,6 +116,8 @@ theme_config:
   projects_overview:
     limit: 5
 
+  projects_url: /projects/
+
   logo:
     enabled: false
   

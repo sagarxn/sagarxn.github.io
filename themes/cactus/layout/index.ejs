@@ -57,6 +57,9 @@
       </li>
     <% }); %>
   </ul>
+  <% if (show_posts.length > 0 && site.posts.length > (theme.posts_overview.post_count || 5) && !theme.posts_overview.show_all_posts) { %>
+    <a href="<%- url_for(theme.nav.articles) %>" class="show-more">Show more</a>
+  <% } %>
   <% if (theme.posts_overview.show_all_posts) { %>
     <%- partial('_partial/pagination') %>
   <% } %>
@@ -68,9 +71,13 @@
   <ul class="project-list">
     <% site.data.projects.slice(0, theme.projects_overview.limit || 5).forEach(function(project){ %>
       <li class="project-item">
-        <strong><a href="<%= project.url %>"><%= project.name %></a></strong><% if (project.desc) { %>: <%- markdown(project.desc) %><% } %>
+        <span class="meta"><%= moment(project.date).format('MMM, YYYY') %></span>
+        <span><a href="<%= project.url %>"><%= project.name %></a></span>
       </li>
     <% }); %>
   </ul>
+  <% if (site.data.projects.length > (theme.projects_overview.limit || 5)) { %>
+    <a href="<%- url_for(theme.projects_url) %>" class="show-more">Show more</a>
+  <% } %>
 </section>
 <% } %>
