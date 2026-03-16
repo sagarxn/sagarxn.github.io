@@ -14,10 +14,7 @@ timezone: Asia/Kathmandu
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://sagarchaudhary.info.np
-permalink: archives/:abbrlink.html
-abbrlink:
-  alg: crc32  #support crc16(default) and crc32
-  rep: hex    #support dec(default) and hex
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -105,8 +102,8 @@ theme_config:
 
   nav:
     Home: /
+    Writing: /archives/
     Projects: /projects/
-    # Articles: /archives/
     About: /about/
     Contact: /contact/
 
@@ -115,6 +112,9 @@ theme_config:
       link: http://github.com/sagarxn
     - icon: linkedin
       link: https://www.linkedin.com/in/sagar-chaudhary-904a03326
+
+  projects_overview:
+    limit: 5
 
   logo:
     enabled: false

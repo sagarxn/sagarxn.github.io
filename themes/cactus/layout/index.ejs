@@ -66,11 +66,11 @@
 <section id="projects">
   <span class="h1"><a href="<%- url_for(theme.projects_url) %>"><%= __('index.projects') %></a></span>
   <ul class="project-list">
-    <% for(var obj in site.data.projects){ %>
+    <% site.data.projects.slice(0, theme.projects_overview.limit || 5).forEach(function(project){ %>
       <li class="project-item">
-        <a href="<%= site.data.projects[obj].url %>"><%= site.data.projects[obj].name %></a>: <%- markdown(site.data.projects[obj].desc) %>
+        <strong><a href="<%= project.url %>"><%= project.name %></a></strong><% if (project.desc) { %>: <%- markdown(project.desc) %><% } %>
       </li>
-    <% } %>
+    <% }); %>
   </ul>
 </section>
 <% } %>

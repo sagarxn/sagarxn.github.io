@@ -1,9 +1,21 @@
 [
+   {
+    "name": "ABU Robocon 2023",
+    "url": "https://robotics.pcampus.edu.np/robocon/2023/",
+    "desc": "ABU Robocon 2023 held at Phnom Penh, Cambodia with the theme 'Casting Flowers Over Angkor Wat'. The competition featured a ring toss game where robots used blue and red rubber hose rings instead of flowers. I participated as a junior supporting member in the Pulchowk Campus Robocon team.",
+    "date": "2023-08-27"
+  },
   {
     "name": "Deadwheel Odometry",
     "url": "https://github.com/sagarxn/Freewheel",
-    "desc": "Odometry implementation using deadwheels/freewheels, rotary encoders, and an IMU sensor for the [Robocon competition](https://robotics.pcampus.edu.np/robocon/2024/).",
-    "date": "2024-08"
+    "desc": "Odometry implementation using deadwheels/freewheels, rotary encoders, and an IMU sensor.",
+    "date": "2024-07"
+  },
+  {
+    "name": "ABU Robocon 2024",
+    "url": "https://robotics.pcampus.edu.np/robocon/2024/",
+    "desc": "ABU Robocon 2024 held in Quang Ninh, Vietnam with the theme 'Harvest Day' focusing on agricultural operations. The competition required two robots: one for planting and harvesting, and another for storage management using silos. I participated as a core team member in the Pulchowk Campus Robocon team.",
+    "date": "2024-08-25"
   },
   {
     "name": "Custom 8-bit RISC Processor",
