@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Deadwheel Odometry",
+    "url": "https://github.com/sagarxn/Freewheel",
+    "desc": "Odometry implementation using deadwheels/freewheels, rotary encoders, and an IMU sensor for the [Robocon competition](https://robotics.pcampus.edu.np/robocon/2024/).",
+    "date": "2024-08"
+  },
+  {
+    "name": "Custom 8-bit RISC Processor",
+    "url": "https://github.com/sagarxn/Processor_RISC_8_Bit",
+    "desc": "A simple and minimal RISC style custom 8-bit processor using verilog and AMD Vivado.",
+    "date": "2025-08"
+  },
+  {
+    "name": "Differenrial Drive Odometry",
+    "url": "https://github.com/sagarxn/Major_Bot_Firmware/blob/main/Bot/Inc/diff_drive_odom.hpp",
+    "desc": "Odometry system for differential drive robots utilizing motor encoders and IMU sensor data. This implementation is part of my undergraduate [major project's bot firmware](https://github.com/sagarxn/Major_Bot_Firmware).",
+    "date": "2026-03"
+  }
+]
